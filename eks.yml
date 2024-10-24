@@ -1,11 +1,11 @@
-apivesrion: eksctl.io/vlalpha5
+apiVesrion: eksctl.io/vlalpha5
 kind: ClusterConfig
 
 metadata:
   name: expense-1
   region: us-east-1
 
-managedNodeGroup:
+managedNodeGroups:
   - name: expense
     instanceType: m5.large
     desiredCapacity: 3
